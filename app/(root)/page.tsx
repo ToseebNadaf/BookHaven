@@ -6,7 +6,7 @@ import React from "react";
 const Home = () => {
   return (
     <>
-      <BookOverview {...sampleBooks[0]} />
+      <BookOverview isLoanedBook={false} {...sampleBooks[0]} />
       <BookList
         title="Latest Books"
         books={sampleBooks}

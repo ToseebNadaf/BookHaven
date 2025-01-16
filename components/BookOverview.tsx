@@ -41,7 +41,7 @@ const BookOverview = ({
           </p>
 
           <p>
-            Available Books: <span>{total_copies}</span>
+            Available Books: <span>{available_copies}</span>
           </p>
         </div>
 
